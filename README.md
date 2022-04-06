@@ -1,4 +1,5 @@
- StockPrediction
+# StockPrediction
+
 Este proyecto implementa una red neuronal recurrente LSTM que predice el valor bursatil las empresas del NASDAQ 100.
 
 Este proyecto sigue un modelo generalista que no se especializa en la predicción de una sola compañia. Se entrena para cada empresa y despues se calcula el error promedio obtenido entre todas ellas.
