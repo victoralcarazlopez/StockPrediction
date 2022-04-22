@@ -1,3 +1,11 @@
+# FIcheros de configuracion para guardar la API_Key, etc
 config.py
 __pycache__
 .ipynb_checkpoints
+
+
+# Ficheros antiguos
+old/
+
+# Otros
+.vscode
