@@ -7,7 +7,7 @@ Se sigue un modelo generalista que no se especializa en la predicción de una so
 Para entrenar utilizamos los datos desde 2017 hasta 2022 (aproximadamente los últimos 5 años). Se reservan los datos del último mes de 2022 para validación.
 
 
-Las libretas de este :
+Las libretas de este proyecto:
 - Data_Collection: mediante Tiingo obtenemos los datos de la cotización de las empresas y generamos los ficheros .csv sobre los que trabajaremos para hacer predicciones.
 - Stock_Prediction: recuperación de los datos desde los ficheros, preprocesamiento, entrenamiento y validación de el modelo implementado.
 
