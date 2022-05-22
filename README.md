@@ -1,15 +1,19 @@
 # StockPrediction
 
-Este proyecto implementa una red neuronal recurrente LSTM que predice el valor bursatil las empresas del NASDAQ 100.
+Este proyecto implementa dos modelos de predicción bursatil sobre las empresas del NASDAQ 100.
 
-Se sigue un modelo generalista que no se especializa en la predicción de una sola compañia. Se entrena para cada empresa y despues se calcula el error promedio obtenido entre todas ellas.
+Se plantean dos modelos:
+- Modelo 1: creación de una red neuronal (LSTM) y predicción individual sobre cada empresa y calculo del error medio cometido entre todas.
+- Modelo 2: se crea un dataset con los datos de todas las empresas y se entrena una sola red neuronal (LSTM) para todas las empresas juntas
 
-Para entrenar utilizamos los datos desde 2017 hasta 2022 (aproximadamente los últimos 5 años). Se reservan los datos del último mes de 2022 para validación.
+Para entrenar se utilizan los datos desde 2017 hasta 2022 (aproximadamente los últimos 5 años). Se reservan los datos del último mes de 2022 para validación.
 
 
 Las libretas de este proyecto:
-- Data_Collection: mediante Tiingo obtenemos los datos de la cotización de las empresas y generamos los ficheros .csv sobre los que trabajaremos para hacer predicciones.
-- Stock_Prediction: recuperación de los datos desde los ficheros, preprocesamiento, entrenamiento y validación de el modelo implementado.
+- Data_Collection.ipynb: mediante Tiingo obtenemos los datos de la cotización de las empresas y generamos los ficheros .csv sobre los que trabajaremos para hacer predicciones.
+- Stock_Prediction-Model1(Individual).ipynb: recuperación de los datos desde los ficheros, preprocesamiento, entrenamiento y validación de el modelo implementado.
+- Stock_Prediction-Model2(All_Companies).ipynb: recuperación de los datos desde los ficheros, preprocesamiento, entrenamiento y validación de el modelo implementado.
+- Results.ipynb: comparación los resultados obtenidos por ambos modelos
 
 
 Versiones del entorno desplegado: 
