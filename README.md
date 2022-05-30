@@ -12,8 +12,9 @@ Para entrenar se utilizan los datos desde 2017 hasta 2022 (aproximadamente los �
 Las libretas de este proyecto:
 - Data_Collection.ipynb: mediante Tiingo obtenemos los datos de la cotización de las empresas y generamos los ficheros .csv sobre los que trabajaremos para hacer predicciones.
 - Stock_Prediction-Model1(Individual).ipynb: recuperación de los datos desde los ficheros, preprocesamiento, entrenamiento y validación de el modelo implementado.
+- Stock_Prediction-Model1(OneCompany_withGraphics).ipynb: identico que el anterior pero para una sola empresa (usado para generar gráficas de empresas)
 - Stock_Prediction-Model2(All_Companies).ipynb: recuperación de los datos desde los ficheros, preprocesamiento, entrenamiento y validación de el modelo implementado.
-- Results.ipynb: comparación los resultados obtenidos por ambos modelos
+- Results.ipynb: comparación los resultados obtenidos por ambos modelos.
 
 
 Versiones del entorno desplegado: 
