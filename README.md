@@ -1,6 +1,6 @@
 # StockPrediction
 
-Este proyecto implementa dos modelos de predicción bursatil sobre las empresas del NASDAQ 100.
+Este proyecto supone el TFG del grado en Ingenieria del Software de Víctor A. Alcaraz López. Se presentan dos modelos de predicción bursatil sobre las empresas del NASDAQ 100.
 
 Se plantean dos modelos:
 - Modelo 1: creación de una red neuronal (LSTM) y predicción individual sobre cada empresa y calculo del error medio cometido entre todas.
