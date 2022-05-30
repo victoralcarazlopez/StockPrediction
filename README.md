@@ -2,14 +2,11 @@
 
 Este proyecto supone el TFG del grado en Ingenieria del Software de Víctor A. Alcaraz López en la UPM (2022). El pdf de la memoria puede encontrarse dentro de la carpeta 'docs'. 
 
-Se presentan dos modelos de predicción bursatil sobre las empresas del NASDAQ 100.
-
-Se plantean dos modelos:
+Se presentan dos modelos de predicción bursatil sobre las empresas del NASDAQ 100. Los modelos presentados son:
 - Modelo 1: creación de una red neuronal (LSTM) y predicción individual sobre cada empresa y calculo del error medio cometido entre todas.
 - Modelo 2: se crea un dataset con los datos de todas las empresas y se entrena una sola red neuronal (LSTM) para todas las empresas juntas
 
 Para entrenar se utilizan los datos desde 2017 hasta 2022 (aproximadamente los últimos 5 años). Se reservan los datos del último mes de 2022 para validación.
-
 
 Las libretas de este proyecto:
 - Data_Collection.ipynb: mediante Tiingo obtenemos los datos de la cotización de las empresas y generamos los ficheros .csv sobre los que trabajaremos para hacer predicciones.
